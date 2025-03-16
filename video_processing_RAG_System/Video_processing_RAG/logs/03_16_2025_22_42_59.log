@@ -1,0 +1,43 @@
+[2025-03-16 22:43:05,917] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:43:05,919] 1051 openai._base_client - INFO - Retrying request to /embeddings in 0.474273 seconds
+[2025-03-16 22:43:07,205] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:43:07,206] 1051 openai._base_client - INFO - Retrying request to /embeddings in 0.946558 seconds
+[2025-03-16 22:43:08,843] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:43:08,844] 1051 openai._base_client - INFO - Retrying request to /embeddings in 1.944941 seconds
+[2025-03-16 22:43:11,404] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:43:11,405] 1051 openai._base_client - INFO - Retrying request to /embeddings in 3.641882 seconds
+[2025-03-16 22:43:15,601] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:43:15,603] 1051 openai._base_client - INFO - Retrying request to /embeddings in 7.896174 seconds
+[2025-03-16 22:43:24,306] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:43:24,307] 1051 openai._base_client - INFO - Retrying request to /embeddings in 6.656356 seconds
+[2025-03-16 22:43:31,472] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:43:31,475] 1051 openai._base_client - INFO - Retrying request to /embeddings in 6.700548 seconds
+[2025-03-16 22:43:38,950] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:43:38,952] 1051 openai._base_client - INFO - Retrying request to /embeddings in 6.798459 seconds
+[2025-03-16 22:43:46,154] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:43:46,155] 1051 openai._base_client - INFO - Retrying request to /embeddings in 7.554834 seconds
+[2025-03-16 22:43:54,102] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:43:54,104] 1051 openai._base_client - INFO - Retrying request to /embeddings in 6.541535 seconds
+[2025-03-16 22:44:01,066] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:44:01,076] 65 llama_index.embeddings.openai.utils - WARNING - Retrying llama_index.embeddings.openai.base.OpenAIEmbedding._get_text_embeddings.<locals>._retryable_get_embeddings in 1.0 seconds as it raised RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}.
+[2025-03-16 22:44:02,396] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:44:02,397] 1051 openai._base_client - INFO - Retrying request to /embeddings in 0.448495 seconds
+[2025-03-16 22:44:03,524] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:44:03,525] 1051 openai._base_client - INFO - Retrying request to /embeddings in 0.961873 seconds
+[2025-03-16 22:44:04,996] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:44:04,997] 1051 openai._base_client - INFO - Retrying request to /embeddings in 1.994768 seconds
+[2025-03-16 22:44:07,617] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:44:07,617] 1051 openai._base_client - INFO - Retrying request to /embeddings in 3.436628 seconds
+[2025-03-16 22:44:11,404] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:44:11,405] 1051 openai._base_client - INFO - Retrying request to /embeddings in 6.013894 seconds
+[2025-03-16 22:44:17,805] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:44:17,807] 1051 openai._base_client - INFO - Retrying request to /embeddings in 6.432583 seconds
+[2025-03-16 22:44:24,616] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:44:24,617] 1051 openai._base_client - INFO - Retrying request to /embeddings in 7.536458 seconds
+[2025-03-16 22:44:32,604] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:44:32,605] 1051 openai._base_client - INFO - Retrying request to /embeddings in 7.101561 seconds
+[2025-03-16 22:44:40,064] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:44:40,065] 1051 openai._base_client - INFO - Retrying request to /embeddings in 6.519403 seconds
+[2025-03-16 22:44:47,106] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+[2025-03-16 22:44:47,107] 1051 openai._base_client - INFO - Retrying request to /embeddings in 6.316421 seconds
+[2025-03-16 22:44:54,033] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
